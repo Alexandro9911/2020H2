@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614536572027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1b fix">
+      <created>1614543476333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614543476333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,8 +147,8 @@
     <MESSAGE value="calc" />
     <MESSAGE value="non blocking" />
     <MESSAGE value="dhcp client" />
-    <MESSAGE value="1b fix" />
     <MESSAGE value="2s" />
-    <option name="LAST_COMMIT_MESSAGE" value="2s" />
+    <MESSAGE value="1b fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="1b fix" />
   </component>
 </project>

@@ -100,6 +100,8 @@ try:
 
 except KeyboardInterrupt:
     send_to_clietns(bytes([TYPE_END]) + bytes([0]))
+    for cl in clients.keys():
+        cl.close()
     clients.clear()
     sockets.clear()
     server_socket.shutdown(socket.SHUT_RDWR)
@@ -108,6 +110,8 @@ except KeyboardInterrupt:
     exit(0)
 finally:
     send_to_clietns(bytes([TYPE_END]) + bytes([0]))
+    for cl in clients.keys():
+        cl.close()
     clients.clear()
     sockets.clear()
     server_socket.shutdown(socket.SHUT_RDWR)
